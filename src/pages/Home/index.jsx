@@ -9,7 +9,7 @@ function Home() {
         <br/>
         <input type="text" placeholder='Digite seu Nome:'/>
         <br/>
-        <button type="button" class="btn btn-success">Adicionar contato</button>
+        <button>Adicionar contato</button>
       </div>
   )
 }
