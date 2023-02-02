@@ -1,10 +1,10 @@
 import './index.css';
 
-const Card = () => {
+const Card = (props) => {
     return(
         <div className='card'>
-            <strong>Vinicicus Henrique</strong>
-            <small>11:29</small>
+            <strong>{props.name}</strong>
+            <small>{props.time}</small>
         </div>
     )
 }
