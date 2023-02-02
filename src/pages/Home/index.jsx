@@ -9,7 +9,6 @@ function Home() {
         <h1>Lista de Presença</h1>
         <input type="text" placeholder='Digite seu Nome:'/>
         <button>Adicionar contato</button>
-        <br />
         <Card/>
       </div>
   )

@@ -2,7 +2,7 @@ import './index.css';
 
 const Card = () => {
     return(
-        <div>
+        <div className='card'>
             <strong>Vinicicus Henrique</strong>
             <small>11:29</small>
         </div>
