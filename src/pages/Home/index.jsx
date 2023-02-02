@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import reactLogo from '../../assets/react.svg';
 import './index.css'
 import Card from '../../components/card';
@@ -19,6 +19,10 @@ function Home() {
 
     setStudents(prevState => [...prevState, newStudent]);
   }
+
+  useEffect(()=>{
+    
+  },[])
 
   return (
     <div className='container'>
