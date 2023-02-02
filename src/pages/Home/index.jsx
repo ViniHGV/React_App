@@ -4,10 +4,17 @@ import './index.css'
 import Card from '../../components/card';
 
 function Home() {
+  const [studentName, setStudentName] = useState();
+
+
   return (
     <div className='container'>
-        <h1>Lista de Presença</h1>
-        <input type="text" placeholder='Digite seu Nome:'/>
+        <h1>Nome: {studentName}</h1>
+        <input 
+          type="text" 
+          placeholder='Digite seu Nome:'
+          onChange={e => setStudentName(e.target.value)}
+        />
         <button>Adicionar contato</button>
         <Card 
           name="Vinicius Henrique" 
