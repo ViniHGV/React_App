@@ -33,10 +33,12 @@ function Home() {
       </button>
 
       {
-        students.map(student => <Card
+        students.map(student => (
+        <Card
+          key={student.time}
           name={student.name}
           time={student.time}
-        />)
+        />))
 
       }
 
