@@ -28,7 +28,9 @@ function Home() {
         placeholder='Digite seu Nome:'
         onChange={e => setStudentName(e.target.value)}
       />
-      <button>Adicionar contato</button>
+      <button type='button' onClick={handleAddStudent}>
+        Adicionar contato
+      </button>
 
       {
         students.map(student => <Card
